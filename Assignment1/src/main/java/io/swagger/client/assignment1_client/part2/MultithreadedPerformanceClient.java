@@ -43,9 +43,9 @@ public class MultithreadedPerformanceClient {
         PerformanceData data = getPerformanceAndWrite(performanceQueue, time);
         printData(data);
     }
-    private void printData(PerformanceData data) {
-        System.out.println("*** Output for part 2 ***");
-        System.out.println("mean response time (milliseconds): " + data.getMean());
+    private void printData(PerformanceData data) {* Output for part 2 ***");
+        System.out.println("mean response time\n" +
+                "        System.out.println(\"** (milliseconds): " + data.getMean());
         System.out.println("median response time (milliseconds): " + data.getMedian());
         System.out.println("throughput (requests/second): " + data.getThroughput());
         System.out.println("p99 (99th percentile) response time: " + data.getP99());

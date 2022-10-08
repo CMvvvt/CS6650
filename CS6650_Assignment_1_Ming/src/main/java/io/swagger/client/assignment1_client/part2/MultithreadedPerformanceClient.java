@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class MultithreadedPerformanceClient {
     final private static int NUM_THREADS = 32;
     final private static int POSTS_PER_THREADS = 1000;
-    final private static int NUM_THREADS_SECOND = 256;
+    final private static int NUM_THREADS_SECOND = 32;
     final private static int POSTS_PER_THREADS_SECOND = 10000;
     final private static int NUM_POSTS = 200_000;
     final private static String LOCAL_PATH = "http://localhost:8080/lab1_java_servlet_war_exploded";
@@ -114,7 +114,7 @@ public class MultithreadedPerformanceClient {
             String[] curr = {start, type, latency, code};
             output.add(curr);
         }
-        try (CSVWriter writer = new CSVWriter(new FileWriter("/Users/ming/IdeaProjects/CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance.csv"))) {
+        try (CSVWriter writer = new CSVWriter(new FileWriter("/Users/ming/IdeaProjects/CS6650/CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance" + "_" + NUM_THREADS_SECOND + ".csv"))) {
             writer.writeAll(output);
         }
     }

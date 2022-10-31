@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 public class Consumer {
     private final static String QUEUE_NAME = "SkierQueue";
-    private final static String HOST = "54.190.211.140";
+    private final static String HOST = "52.34.123.9";
     private final static String USERNAME = "ming";
     private final static String PASSWORD = "983150";
     private final static Integer THREADS = 500;

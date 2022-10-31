@@ -76,7 +76,6 @@ public class SkierServlet extends HttpServlet {
 
         String[] urlParts = urlPath.split("/");
 
-
         if (!isUrlValid(urlParts)) {
             res.setStatus(HttpServletResponse.SC_NOT_FOUND);
         } else {

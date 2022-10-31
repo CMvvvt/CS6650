@@ -10,140 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d47d74-888c-4d62-bc3d-a0d385197404" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../assignment1/servlet/lab1-java-servlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/artifacts/consumer_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/out/artifacts/consumer_jar/consumer.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/models/Skier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/target/classes/org/example/Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/target/classes/org/example/models/Skier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/single_servlet_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-servlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RabbitMQChannelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SkierServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Skier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.swagger-codegen-ignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.swagger-codegen/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/APIStats.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/APIStatsEndpointStats.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/LiftRide.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResortIDSeasonsBody.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResortSkiers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResortsApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResortsList.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResortsListResorts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/ResponseMsg.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/SeasonsList.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/SkierVertical.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/SkierVerticalResorts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/SkiersApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/docs/StatisticsApi.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/git_push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ApiCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ApiException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ApiResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/GzipRequestInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/JSON.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ProgressRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/ProgressResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/StringUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/api/ResortsApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/api/SkiersApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/api/StatisticsApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/PostThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/RandomLiftRide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/SingleThreadPost.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part1/MultithreadedClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/Performance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/PerformanceData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance_256.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance_32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/auth/Authentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/auth/OAuth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/auth/OAuthFlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/APIStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/APIStatsEndpointStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/LiftRide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/ResortIDSeasonsBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/ResortSkiers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/ResortsList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/ResortsListResorts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/ResponseMsg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/SeasonsList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/SkierVertical.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/model/SkierVerticalResorts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/test/java/io/swagger/client/api/ResortsApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/test/java/io/swagger/client/api/SkiersApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CS6650_Assignment_1_Ming/src/test/java/io/swagger/client/api/StatisticsApiTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/artifacts/lab1_java_servlet_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/artifacts/lab1_java_servlet_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/lab1-java-servlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war/lab1-java-servlet_war.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/WEB-INF/classes/HelloWorldServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/WEB-INF/classes/SkierServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/WEB-INF/classes/ming/chen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/out/artifacts/lab1_java_servlet_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/src/main/java/HelloWorldServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/src/main/java/SkierServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/src/main/java/ming/chen/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/target/classes/HelloWorldServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/target/classes/SkierServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/target/classes/ming/chen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../servlet/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part1/MultithreadedClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part1/MultithreadedClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/out/artifacts/consumer_jar/consumer.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/out/artifacts/consumer_jar/consumer.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer/target/classes/org/example/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/target/classes/org/example/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war/single-servlet_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war/single-servlet_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/RabbitMQChannelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/RabbitMQChannelFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/SkierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/SkierServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/ming/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RabbitMQChannelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RabbitMQChannelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkierServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ming/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RabbitMQChannelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RabbitMQChannelFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SkierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SkierServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ming/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +204,8 @@
       <updated>1667071901522</updated>
       <workItem from="1667071903741" duration="2021000" />
       <workItem from="1667088432374" duration="630000" />
-      <workItem from="1667092031491" duration="7041000" />
+      <workItem from="1667092031491" duration="8460000" />
+      <workItem from="1667177931429" duration="1008000" />
     </task>
     <servers />
   </component>

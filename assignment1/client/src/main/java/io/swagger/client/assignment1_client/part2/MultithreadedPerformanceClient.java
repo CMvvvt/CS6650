@@ -15,11 +15,13 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class MultithreadedPerformanceClient {
     final private static int NUM_THREADS = 32;
     final private static int POSTS_PER_THREADS = 1000;
-    final private static int NUM_THREADS_SECOND = 32;
+    final private static int NUM_THREADS_SECOND = 256;
     final private static int POSTS_PER_THREADS_SECOND = 10000;
     final private static int NUM_POSTS = 200_000;
     final private static String LOCAL_PATH = "http://localhost:8080/lab1_java_servlet_war_exploded";
-    final private static String EC2_PATH = "http://34.222.143.0/lab1-java-servlet_war/";
+    final private static String EC2_PATH = "http://34.222.16.217/single-servlet_war/";
+
+    final private static String FILE_PATH  = "/Users/ming/IdeaProjects/CS6650/assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/performance";
 
     private String path;
 
@@ -114,7 +116,7 @@ public class MultithreadedPerformanceClient {
             String[] curr = {start, type, latency, code};
             output.add(curr);
         }
-        try (CSVWriter writer = new CSVWriter(new FileWriter("/Users/ming/IdeaProjects/CS6650/CS6650_Assignment_1_Ming/src/main/java/io/swagger/client/assignment1_client/part2/performance" + "_" + NUM_THREADS_SECOND + ".csv"))) {
+        try (CSVWriter writer = new CSVWriter(new FileWriter(FILE_PATH + "_" + NUM_THREADS_SECOND + ".csv"))) {
             writer.writeAll(output);
         }
     }

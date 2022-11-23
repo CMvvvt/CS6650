@@ -14,6 +14,8 @@ public class RandomLiftRide {
 
     public RandomLiftRide() {
         this.body = new LiftRide();
+        this.body.setLiftID(this.rand.nextInt(40) + 1);
+        this.body.setTime(this.rand.nextInt(360)+1);
         this.resortID = this.rand.nextInt(10) + 1;
         this.seasonID = "2022";
         this.dayID = "1";

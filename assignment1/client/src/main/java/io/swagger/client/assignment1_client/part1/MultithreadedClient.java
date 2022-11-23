@@ -14,7 +14,7 @@ public class MultithreadedClient {
     final private static int POSTS_PER_THREADS_SECOND = 10000;
     final private static int NUM_POSTS = 200_000;
     final private static String LOCAL_PATH = "http://localhost:8080/single_servlet_war_exploded/";
-    final private static String EC2_PATH = "http://servlet-alb-262129010.us-west-2.elb.amazonaws.com/single-servlet_war/";
+    final private static String EC2_PATH = "http://35.175.243.180/single-servlet_war/";
 
     private String path;
 

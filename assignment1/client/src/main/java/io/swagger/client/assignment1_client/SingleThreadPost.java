@@ -8,7 +8,7 @@ import io.swagger.client.model.LiftRide;
 public class SingleThreadPost {
     final private static int NUM_REQUESTS = 10_00;
     final private static String LOCAL_PATH = "http://localhost:8080/lab1_java_servlet_war_exploded";
-    final private static String EC2_PATH = "http://34.210.25.11/lab1-java-servlet_war/";
+    final private static String EC2_PATH = "http://35.174.170.42/lab1-java-servlet_war/";
 
     public static void main(String[] args) throws ApiException {
 

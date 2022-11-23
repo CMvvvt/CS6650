@@ -9,7 +9,82 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d47d74-888c-4d62-bc3d-a0d385197404" name="Changes" comment="" />
+    <list default="true" id="10d47d74-888c-4d62-bc3d-a0d385197404" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.swagger-codegen-ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.swagger-codegen/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/APIStats.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/APIStatsEndpointStats.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/LiftRide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResortIDSeasonsBody.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResortSkiers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResortsApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResortsList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResortsListResorts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/ResponseMsg.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/SeasonsList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/SkierVertical.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/SkierVerticalResorts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/SkiersApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/docs/StatisticsApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/git_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ApiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/ProgressResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/api/ResortsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/api/SkiersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/api/StatisticsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/PostThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/RandomLiftRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/SingleThreadPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part1/MultithreadedClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/PerformanceData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/performance_256.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/assignment1_client/part2/performance_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/auth/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/auth/OAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/auth/OAuthFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/APIStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/APIStatsEndpointStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/LiftRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/ResortIDSeasonsBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/ResortSkiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/ResortsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/ResortsListResorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/ResponseMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/SeasonsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/SkierVertical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/main/java/io/swagger/client/model/SkierVerticalResorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/test/java/io/swagger/client/api/ResortsApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/test/java/io/swagger/client/api/SkiersApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/test/java/io/swagger/client/api/StatisticsApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -131,7 +131,7 @@ public class MultithreadedPerformanceClient {
     }
 
     public static void main(String[] args) throws InterruptedException, IOException {
-        MultithreadedPerformanceClient post = new MultithreadedPerformanceClient(EC2_PATH);
+        MultithreadedPerformanceClient post = new MultithreadedPerformanceClient(LOCAL_PATH);
         post.postWithMultipleThreads();
     }
 }

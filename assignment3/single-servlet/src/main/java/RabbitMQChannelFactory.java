@@ -7,7 +7,7 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 
 public class RabbitMQChannelFactory extends  BasePooledObjectFactory<Channel>{
     private ConnectionFactory connectionFactory = new ConnectionFactory();
-    private final static String HOST = "18.205.153.96";
+    private final static String HOST = "3.95.245.0";
     private final static String PASSWORD = "983150";
     private final static String USERNAME = "ming";
     private final static Integer THREADS = 500;

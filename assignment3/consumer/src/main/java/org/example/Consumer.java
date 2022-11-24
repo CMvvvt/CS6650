@@ -8,8 +8,8 @@ import redis.clients.jedis.JedisPool;
 
 public class Consumer {
     private final static String QUEUE_NAME = "SkierQueue";
-    private final static String RABBITMQ_HOST = "18.205.153.96";
-    private final static String LOCAL_HOST = "44.207.1.67";
+    private final static String RABBITMQ_HOST = "3.95.245.0";
+    private final static String LOCAL_HOST = "18.206.204.165";
     private final static String USERNAME = "ming";
     private final static String PASSWORD = "983150";
     private final static Integer THREADS = 500;

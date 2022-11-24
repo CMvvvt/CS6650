@@ -14,7 +14,7 @@ public class MultithreadedClient {
     final private static int POSTS_PER_THREADS_SECOND = 10000;
     final private static int NUM_POSTS = 200_000;
     final private static String LOCAL_PATH = "http://localhost:8080/single_servlet_war_exploded/";
-    final private static String EC2_PATH = "http://35.175.243.180/single-servlet_war/";
+    final private static String EC2_PATH = "http://54.205.127.60/single-servlet_war/";
 
     private String path;
 
@@ -66,7 +66,7 @@ public class MultithreadedClient {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        MultithreadedClient post = new MultithreadedClient(EC2_PATH);
+        MultithreadedClient post = new MultithreadedClient(LOCAL_PATH);
         post.postWith200Threads();
     }
 }

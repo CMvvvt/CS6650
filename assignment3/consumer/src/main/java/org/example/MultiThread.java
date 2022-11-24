@@ -1,18 +1,14 @@
 package org.example;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.DeliverCallback;
 import org.example.models.Skier;
-import org.example.models.SkierDao;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
+import org.example.dao.SkierDao;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 

@@ -18,8 +18,8 @@ public class MultithreadedPerformanceClient {
     final private static int NUM_THREADS_SECOND = 256;
     final private static int POSTS_PER_THREADS_SECOND = 10000;
     final private static int NUM_POSTS = 200_000;
-    final private static String LOCAL_PATH = "http://localhost:8080/lab1_java_servlet_war_exploded";
-    final private static String EC2_PATH = "http://35.175.243.180/single-servlet_war/";
+    final private static String LOCAL_PATH = "http://localhost:8080/single_servlet_war_exploded/";
+    final private static String EC2_PATH = "http://44.204.40.7/single-servlet_war/";
 
     final private static String FILE_PATH  = "/Users/ming/IdeaProjects/CS6650/assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/performance";
 

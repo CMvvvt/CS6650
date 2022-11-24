@@ -34,8 +34,8 @@ public class MultiThread implements Runnable{
             DeliverCallback deliverCallback = (consumerTag, delivery) -> {
                 String message = new String(delivery.getBody(), StandardCharsets.UTF_8);
                 Skier skier = gson.fromJson(message, Skier.class);
-                SkierDao skierDao = new SkierDao(skier, Consumer.getPool());
-                skierDao.createSkier();
+                SkierDao skierDao = new SkierDao(Consumer.getPool());
+                skierDao.createSkier(skier);
                 System.out.println("Thread " + Thread.currentThread().getId() + " received");
                 channel.basicAck(delivery.getEnvelope().getDeliveryTag(), false);
             };

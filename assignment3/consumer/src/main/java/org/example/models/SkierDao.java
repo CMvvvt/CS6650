@@ -7,16 +7,13 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 public class SkierDao {
-    private Skier skier;
     private JedisPool pool;
 
-
-    public SkierDao(Skier skier, JedisPool pool) {
-        this.skier = skier;
+    public SkierDao(JedisPool pool) {
         this.pool = pool;
     }
 
-    public void createSkier() {
+    public void createSkier(Skier skier) {
         Gson gson = new Gson();
         JsonObject formData = new JsonObject();
 
@@ -37,14 +34,6 @@ public class SkierDao {
         } catch (Exception e){
             e.printStackTrace();
         }
-    }
-
-    public Skier getSkier() {
-        return skier;
-    }
-
-    public void setSkier(Skier skier) {
-        this.skier = skier;
     }
 
     public JedisPool getPool() {

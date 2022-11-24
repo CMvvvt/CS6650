@@ -2,18 +2,14 @@ package org.example;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import org.example.models.Skier;
 import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 
 public class Consumer {
     private final static String QUEUE_NAME = "SkierQueue";
-    private final static String RABBITMQ_HOST = "44.205.248.108";
-    private final static String LOCAL_HOST = "localhost";
+    private final static String RABBITMQ_HOST = "18.205.153.96";
+    private final static String LOCAL_HOST = "44.207.1.67";
     private final static String USERNAME = "ming";
     private final static String PASSWORD = "983150";
     private final static Integer THREADS = 500;

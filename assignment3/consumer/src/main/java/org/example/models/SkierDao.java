@@ -17,6 +17,7 @@ public class SkierDao {
         Gson gson = new Gson();
         JsonObject formData = new JsonObject();
 
+        formData.addProperty("time", skier.getTime());
         formData.addProperty("seasonID", skier.getSeasonID());
         formData.addProperty("liftID", skier.getLiftID());
         formData.addProperty("dayID", skier.getDayID());

@@ -111,6 +111,7 @@ public class SkierServlet extends HttpServlet {
 
     private JsonObject getJson(JsonObject body, String[] url) {
         JsonObject jsonObject = new JsonObject();
+        jsonObject.addProperty("time", body.get("time").toString());
         jsonObject.addProperty("liftID", body.get("liftID").toString());
         jsonObject.addProperty("resortID", Integer.valueOf(url[1]));
         jsonObject.addProperty("seasonID", Integer.valueOf(url[3]));

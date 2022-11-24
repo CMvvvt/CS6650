@@ -10,18 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d47d74-888c-4d62-bc3d-a0d385197404" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/MultithreadedPerformanceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/performance_256.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignment1/client/src/main/java/io/swagger/client/assignment1_client/part2/performance_256.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/org/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/org/example/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/MultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/org/example/models/Skier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/models/Skier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/org/example/models/SkierDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/org/example/models/SkierDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war/single-servlet_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war/single-servlet_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/RabbitMQChannelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/RabbitMQChannelFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RabbitMQChannelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RabbitMQChannelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RabbitMQChannelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RabbitMQChannelFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/SkierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/single_servlet_war_exploded/WEB-INF/classes/SkierServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SkierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkierServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SkierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SkierServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +195,7 @@
       <workItem from="1667092031491" duration="8460000" />
       <workItem from="1667177931429" duration="1008000" />
       <workItem from="1669064281752" duration="7008000" />
-      <workItem from="1669137504126" duration="12391000" />
+      <workItem from="1669137504126" duration="12882000" />
     </task>
     <servers />
   </component>

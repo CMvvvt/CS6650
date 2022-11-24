@@ -2,18 +2,36 @@ package org.example.models;
 
 public class Skier {
 
+    private String time;
     private String liftID;
     private String resortID;
     private String seasonID;
     private String dayID;
     private String skierID;
 
-    public Skier(String liftID, String resortID, String seasonID, String dayID, String skierID) {
+    public Skier(String time, String liftID, String resortID, String seasonID, String dayID, String skierID) {
+        this.time = time;
         this.liftID = liftID;
         this.resortID = resortID;
         this.seasonID = seasonID;
         this.dayID = dayID;
         this.skierID = skierID;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public String getLiftID() {
+        return liftID;
+    }
+
+    public void setLiftID(String liftID) {
+        this.liftID = liftID;
     }
 
     public String getResortID() {
@@ -48,18 +66,11 @@ public class Skier {
         this.skierID = skierID;
     }
 
-    public String getLiftID() {
-        return liftID;
-    }
-
-    public void setLiftID(String liftID) {
-        this.liftID = liftID;
-    }
-
     @Override
     public String toString() {
         return "Skier{" +
-                "liftID='" + liftID + '\'' +
+                "time='" + time + '\'' +
+                ", liftID='" + liftID + '\'' +
                 ", resortID='" + resortID + '\'' +
                 ", seasonID='" + seasonID + '\'' +
                 ", dayID='" + dayID + '\'' +
